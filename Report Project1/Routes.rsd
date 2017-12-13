@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description />
+  <DataSet Name="Routes">
+    <Query>
+      <DataSourceReference>DriverPro</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@ScheduledDate">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@DC">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>String</rd:DbType>
+          <rd:IsMultiValued>true</rd:IsMultiValued>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT ' DC  ' + DCID + ': ' + [RouteID]  As DC_Route
+  ,LEFT(DCID,3) +RouteID AS Route
+  ,RouteID
+  FROM [DriverPro].[driverpro].[Route] r
+   WHERE [ScheduledDate] = @ScheduledDate  
+    AND [DCID] IN (@DC)
+    AND Routestatus = 'C'
+  ORDER BY DC_Route
+   </CommandText>
+    </Query>
+    <Fields>
+      <Field Name="DC_Route">
+        <DataField>DC_Route</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Route">
+        <DataField>Route</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="RouteID">
+        <DataField>RouteID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

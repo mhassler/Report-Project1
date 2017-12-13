@@ -1,0 +1,43 @@
+﻿------ Build started: Project: Report Project1, Configuration: Release ------
+Skipping 'DriverPro.rds'. Item is up to date.
+Skipping 'SygmaODS.rds'. Item is up to date.
+Skipping 'DC.rsd'. Item is up to date.
+Skipping 'FirstDayOfPreviousWeek.rsd'. Item is up to date.
+Skipping 'FiscalPeriods.rsd'. Item is up to date.
+Skipping 'LastDayOfPreviousWeek.rsd'. Item is up to date.
+Skipping 'Routes.rsd'. Item is up to date.
+Skipping 'Routes2.rsd'. Item is up to date.
+Skipping 'ARIS Detail.rdl'. Item is up to date.
+Skipping 'ARIS Summary with Concept.rdl'. Item is up to date.
+Skipping 'ARIS Summary.rdl'. Item is up to date.
+Skipping 'ARIS_Suppressed_Items.rdl'. Item is up to date.
+Skipping 'Chart_Daily Tracking.rdl'. Item is up to date.
+Skipping 'Chart_DSO Concept Period Change.rdl'. Item is up to date.
+Skipping 'Chart_DSO DC Period Change.rdl'. Item is up to date.
+Skipping 'Chart_DSO_YTD_By_Concept.rdl'. Item is up to date.
+Skipping 'DSO Concept Item Summary.rdl'. Item is up to date.
+Skipping 'DSO Concept Summary.rdl'. Item is up to date.
+Skipping 'DSO DC Summary.rdl'. Item is up to date.
+Skipping 'DSO Table By Buyer.rdl'. Item is up to date.
+Skipping 'DSO Table By Concept.rdl'. Item is up to date.
+Skipping 'DSO Table.rdl'. Item is up to date.
+Skipping 'SSRS Report Usage Summary.rdl'. Item is up to date.
+Skipping 'STS Chart and Data DC Scan Percentage.rdl'. Item is up to date.
+Skipping 'STS Chart DC Scan Percentage.rdl'. Item is up to date.
+Skipping 'STS Drilldown Scan Percent.1.rdl'. Item is up to date.
+Skipping 'STS Drilldown Scan Percent.2.rdl'. Item is up to date.
+Skipping 'STS Driver_Scan_Percentage.rdl'. Item is up to date.
+Skipping 'STS Driver_Scan_Percentage_Dual.rdl'. Item is up to date.
+Skipping 'STS Route_Scan_Percentage.rdl'. Item is up to date.
+Skipping 'STS RouteStopDriverAnalysis.rdl'. Item is up to date.
+Skipping 'STS Scan Percentages By DC Route with Bulk Breakout.rdl'. Item is up to date.
+Skipping 'TSCR Adjustment Batch Detail.rdl'. Item is up to date.
+Skipping 'TSCR Full Summary.rdl'. Item is up to date.
+Skipping 'TSCR Summary - Supplier.rdl'. Item is up to date.
+Skipping 'TSCR Summary.rdl'. Item is up to date.
+Building the report, TSCR Summary2.rdl, for SQL Server 2008 R2, 2012 or 2014 Reporting Services.
+Custom parameter layout was removed from the report. SQL Server 2014 Reporting Services and earlier do not support custom parameter layout.
+An unexpected error occurred in Report Processing.
+Failed to build item 'TSCR Summary2.rdl'.
+Build complete -- 1 errors, 1 warnings
+========== Build: 0 succeeded or up-to-date, 1 failed, 0 skipped ==========
